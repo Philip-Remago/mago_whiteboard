@@ -1,0 +1,30 @@
+name: mago_whiteboard
+description: "Mago Whiteboard Package"
+version: 0.0.1
+homepage:
+publish_to: "none"
+
+environment:
+  sdk: ^3.10.0-162.0.dev
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mago_widgets:
+    git:
+      url: https://github.com/Philip-Remago/mago_widgets.git
+      ref: main
+
+flutter:
+
+  # To add assets to your package, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  #
