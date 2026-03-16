@@ -489,7 +489,7 @@ packages:
     source: hosted
     version: "3.1.10"
   mago_widgets:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       path: "."
       ref: main

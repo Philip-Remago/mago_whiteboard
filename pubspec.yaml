@@ -11,15 +11,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  mago_widgets:
+    git:
+      url: https://github.com/Philip-Remago/mago_widgets.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-  mago_widgets:
-    git:
-      url: https://github.com/Philip-Remago/mago_widgets.git
-      ref: main
 
 flutter:
 

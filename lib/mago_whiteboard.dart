@@ -1,5 +1,4 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+library mago_whiteboard;
+
+export 'src/whiteboard.dart';
+export 'src/toolbar.dart' show WhiteboardTool;
